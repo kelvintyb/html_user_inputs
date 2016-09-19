@@ -1,35 +1,73 @@
-general_assembly_logo.png
+<!DOCTYPE html>
+<html>
 
-General Assembly Account Creation
+<head>
+  <meta charset="utf-8">
+  <img src="general_assembly_logo.png" alt="GA Logo" />
+  <title>General Assembly Account Creation</title>
+</head>
 
-Welcome to the General Assembly. General Assembly is a global
-institution training people all over the world in today's top
-technologies.
+<body>
+  <h1>General Assembly Account Creation</h1>
+  <p>
+    Welcome to the General Assembly. General Assembly is a global institution training people all over the world in today's top technologies.
+  </p>
+  <p>
 
-Please fill out the information below to create your General Assembly
-account. Let us know what city you're in and what course
-you're taking. This list is for all students. Please tell us what
-city you're in and whether you're taking the Immersive User Experience (UX)
-course or the Immersive Web Development course. 
+    Please fill out the information below to create your General Assembly account. Let us know what city you're in and what course you're taking. This list is for all students. Please tell us what city you're in and whether you're taking the Immersive User
+    Experience (UX) course or the Immersive Web Development course.
 
-City:
-  Hong Kong
-  London
-  Los Angeles
-  New York
-  Portland
-  San Francisco
-  Seattle
-  Singapore
+  </p>
+  <form class="" action="index.html" method="post">
+    <label>City: <select class="" name="city">
+        <option value="HK">Hong Kong</option>
+        <option value="LDN">London</option>
+        <option value="LA">Los Angeles</option>
+        <option value="NY">New York</option>
+        <option value="PL">Portland</option>
+        <option value="SF">San Francisco</option>
+        <option value="STL">Seattle</option>
+        <option value="SGP">Singapore</option>
+      </select></label>
+    <br><br>
+  </form>
 
-Course:
-  (0) UX
-  ( ) Web Dev
+  <form class="" action="index.html" method="post">
+    <label>Course:
+        <input type="radio" name="course" value="UX"> UX
+        <input type="radio" name="course" value="WebDev" checked> Web Dev
 
-Name:     _________
-Email:    _________
-Password: *********
+      </label>
+    <br><br>
 
-[] Yes, subscribe me to the General Assembly student newsletter
+  </form>
 
-[Subscribe]
+  <form class="" action="index.html" method="post">
+    <label>Name: <input type="text" name="name" value=""></label>
+    <br><br>
+
+  </form>
+
+  <form class="" action="index.html" method="post">
+    <label>Email: <input type="email" name="email" value=""></label>
+    <br><br>
+
+  </form>
+
+  <form class="" action="index.html" method="post">
+    <label>Password: <input type="password" name="psw" value=""></label>
+    <br><br>
+  </form>
+
+  <form class="" action="index.html" method="post">
+    <input type="checkbox" name="subscribe" value="subscribe" checked> Yes, subscribe me to the General Assembly student newsletter
+    <br><br>
+
+    <input type="button" onclick="#" value="Subscribe">
+
+  </form>
+
+
+</body>
+
+</html>
